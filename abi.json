@@ -1,15 +1,38 @@
 [
 	{
-		"constant": true,
-		"inputs": [],
-		"name": "getRequestsCount",
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "_guess",
+				"type": "bool"
+			}
+		],
+		"name": "flip",
 		"outputs": [
 			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "consecutiveWins",
+		"outputs": [
+			{
+				"internalType": "uint256",
 				"name": "",
 				"type": "uint256"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	}
