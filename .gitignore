@@ -3,3 +3,4 @@
 .venv
 celery.sqlite
 celerybeat-schedule
+.DS_Store
